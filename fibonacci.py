@@ -1,7 +1,6 @@
 n=int(input())
-a=0
-b=1
 i=1
+a,b=0,1
 while i<=n:
     c=a+b
     print(a,end=" ")
