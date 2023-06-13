@@ -1,6 +1,6 @@
-n=input()
-k=n[::-1]
-if n==k:
-    print(True)
+n=int(input())
+r=int(str(n)[::-1])
+if n==r:
+    print("True")
 else:
-    print(False)
+    print("False")
