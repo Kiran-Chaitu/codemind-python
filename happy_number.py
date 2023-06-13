@@ -14,3 +14,4 @@ if s==1 or s==7:
     print("True")
 else:
     print("False")
+        
