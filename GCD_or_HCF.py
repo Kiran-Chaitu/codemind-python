@@ -1,15 +1,8 @@
 a,b=map(int,input().split())
-if a<b:
-    min=a
-    max=b
-else:
-    min=b
-    max=a
-i=max
+m=min(a,b)
 while 1:
-    if max%min==0:
-        lcm=max
+    if a%m==0 and b%m==0:
         break
     else:
-        max+=i
-print((a*b)//lcm)
+        m-=1
+print(m)
