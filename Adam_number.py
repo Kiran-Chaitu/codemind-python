@@ -8,3 +8,4 @@ if s1==rev(s2):
     print("True")
 else:
     print("False")
+    
